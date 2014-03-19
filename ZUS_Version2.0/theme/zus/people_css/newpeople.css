@@ -1,0 +1,118 @@
+.people-left {
+    position: relative;
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+.people-left-top
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.section-trends
+{	
+	position: relative;
+    display: block;
+    width: auto;
+    min-height: 200px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.section-trends ul li {
+    list-style-type: none;
+    display: block;
+    padding: 5px 10px 5px 20px;
+}
+
+.news-tag
+{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.trends-content {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #FFF;
+    font-family: "幼圆", "SimHei", "宋体", Arial, sans-serif;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.trends-time
+{
+	float: left;
+	display: block;
+	height: 25px;
+	width: 100%;
+	text-align: left;
+	font-size: 0.8rem;
+	color: #999;
+	margin-left: 1.2rem;
+}
+
+.people-left-mid
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.people-left-bot
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.people-right {
+    position: relative;
+    display: block;
+    float: left;
+    width: 66%;
+    margin-left: 4%;
+}
+
+.people-right-top
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.people-right-top-left
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 55%;
+}
+
+.people-right-top-right
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 42%;
+    margin-left: 2%;
+}
+
+.people-right-bot
+{
+	position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}

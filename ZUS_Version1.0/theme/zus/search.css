@@ -1,0 +1,104 @@
+.section-search {
+	width: 100%;
+	height: 100px;
+	margin: 10px auto;
+	background-color: #745d7f;
+	border-radius: 8px;
+}
+
+.div-search-catalog {
+	display: inline;
+}
+
+.search-input {
+	height: 35px;
+	width: 400px;
+	border-radius: 5px;
+}
+
+.ul-event-search-catalog-list {
+	height: 35px;
+	width: 60px;
+	border-radius: 5px;
+	border-color: #CCC;
+}
+
+.section-group-search {
+	padding-top: 50px;
+	width: 100%;
+	margin: 0px auto;
+	padding-left: 25px;
+	background-color: #E6E6FA;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	border-bottom: 0px;
+}
+
+.div-group-search-catalog {
+	display: inline;
+}
+
+.search-input {
+	height: 35px;
+	width: 400px;
+	border-radius: 5px;
+}
+
+.ul-group-search-catalog-list {
+	height: 35px;
+	width: 60px;
+	border-radius: 5px;
+	border-color: #CCC;
+}
+
+.section-group-search .btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 18px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.section-button-list-large
+{
+	display: inline-block;
+	height:50px;
+	width:100%;
+	background-color: transparent;/*#E6E6FA;*/
+	text-align: left;
+}
+
+.button-create
+{
+	box-shadow:inset 0px 1px 29px 5px #E6E6FA;
+	background-color:#E6E6FA;
+	border-radius:15px;
+	text-indent:0;
+	border:1px solid #3866a3;
+	color:#3866a3;
+	font-family:'Apple LiSung Light';
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	height:35px;
+	line-height:25px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #E6E6FA;
+	padding-top: 1px;
+	margin: 3px;
+	margin-left:20px;
+}

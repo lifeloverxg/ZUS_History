@@ -1,0 +1,294 @@
+/*新版本的event_detail页面设计*/
+.view-top
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.view-middle
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.view-bottom
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.view-top-left
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 45%;
+	margin-right: 10%;
+}
+
+.view-top-left-left
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 75%;
+}
+
+.view-top-left-right
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 3%;
+}
+
+.view-top-right
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 38%;
+}
+
+.view-middle-left
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+	padding: 2%;	
+}
+
+.middle-left-content {
+	background: rgba(122, 200, 177, 0.8);
+	overflow: hidden;
+	padding: 20px;
+}
+
+.view-middle-right
+{
+	display: block;
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-top: 95px;
+}
+
+/*+++++地图+++++*/
+.section-map-view
+{
+	background: rgba(122, 200, 177, 0.6);
+	padding: 5%;
+	padding-bottom: 0;
+}
+
+.map-direction
+{
+	text-align:center;
+	background: rgba(122, 200, 177, 1);
+}
+
+.map-direction:hover
+{
+	background: white;
+}
+/*=====地图=====*/
+
+.view-bottom-left {
+	width: 30%;
+	margin-right: 4%;
+	float: left;
+}
+
+.view-bottom-right {
+	width: 66%;
+	float: left;
+}
+
+.ul-button-list-small-small-button > li
+{
+	background: #FFFFFF;
+	display: inline-block;
+	height: 25px;
+	padding-top: 0px;
+	margin: 1px;
+}
+
+.ul-button-list-small-small-button > li > button
+{
+	box-shadow:inset 0px 1px 29px 5px #bee2f9;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	text-indent:0;
+	border:0px solid #FFFFFF;
+	display:inline-block;
+	color:#14396a;
+	font-family:'Apple LiSung Light';
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	height:35px;
+	line-height:25px;
+	width:35px;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*管理员列表*/
+.section-admin-list-small {
+    position: relative;
+    display: block;
+    background: transparent;
+    height: 100%;
+/*edit version    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;*/
+    color: #FFF;
+    width: 35%;
+    float: left;
+    min-height: 320px;
+    max-height: 320px;
+}
+
+.section-admin-list-small a {
+    text-decoration: none;
+}
+
+.section-admin-list-small ul li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 80px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 5px 23px;
+    text-align: center;
+}
+
+/*成员列表 分男女*/
+.member-list-small-female
+{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.member-list-small-male
+{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.section-member-list-small {
+    position: relative;
+    display: block;
+    width: 65%;
+    height: 100%;
+    float: left;
+    min-height: 320px;
+    max-height: 320px;
+/*edit version    background: rgba(255, 255, 255, 0.2);*/
+    background: transparent;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+/*成员列表滚动条*/
+.admin-list-scroll
+{
+    position: relative;
+    display: block;
+    min-height: 270px;
+    max-height: 270px;
+    overflow-y: scroll;
+    width: 140px;
+    margin: 20px auto;
+}
+
+.admin-list-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.admin-list-scroll::-webkit-scrollbar-track {
+    background-color: rgba(100, 173, 151, 1);
+    border-radius: 4px;
+}
+
+.admin-list-scroll::-webkit-scrollbar-thumb{
+    background: rgba(45, 128, 98, 1);
+    border-radius: 4px;
+}
+
+.member-list-scroll
+{
+    position: relative;
+    display: block;
+    min-height: 240px;
+    max-height: 240px;
+    overflow-y: auto;
+    width: auto;
+}
+
+.member-list-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.member-list-scroll::-webkit-scrollbar-track {
+    background-color: rgba(100, 173, 151, 1);
+    border-radius: 4px;
+}
+
+.member-list-scroll::-webkit-scrollbar-thumb{
+    background: rgba(45, 128, 98, 1);
+    border-radius: 4px;
+}
+
+/*jia_this*/
+.view-top-left-right .jiathis_style_32x32
+{
+	width: 50px;
+    margin-left: 30px;
+    padding: 6px;
+}
+
+/*活动相册*/
+.section-photo-list {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.photo-list>ul>li>img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.photo-list ul li {
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	width: 50%;
+}

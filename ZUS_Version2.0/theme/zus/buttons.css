@@ -1,0 +1,36 @@
+.button {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+
+.button-blue {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.button-green {
+    color: #fff;
+    background-color: #47a447;
+    border-color: #398439;
+}
+
+.button-yellow {
+    color: #fff;
+    background-color: #ed9c28;
+    border-color: #d58512;
+}
+
+.button-red {
+    color: #fff;
+    background-color: #d2322d;
+    border-color: #ac2925;
+}
