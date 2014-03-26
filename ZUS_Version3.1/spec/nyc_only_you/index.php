@@ -9,7 +9,7 @@ $bm = new Timer();
 	}
 $bm->mark();
 	if (isset($_SESSION['auth'])) {
-		header('Location: ../../index_in.php');
+		header('Location: testmail.php');
 	}
 
 	$title = '欢迎来到NYCUNI';
@@ -43,7 +43,7 @@ $bm->mark();
 		
 		if (empty($signin_error)) {
 			if (Authority::sign_in($_POST["signin_username"], $_POST["signin_pass"]) == 0){
-				header('Location: ' . $home);
+//				header('Location: ' . $home);
 			}
 			else {
 				array_push($signin_error, "用户名/密码错误");
@@ -117,7 +117,7 @@ $bm->mark();
 			$result = Authority::sign_up($_POST["signup_email"], $_POST["signup_pass"], "infinity", $_POST["signup_username"]);
 			switch ($result) {
 				case 0:
-					header('Location: '.$home."event/detail.php?eid=28");
+					header("location: testmail.php");
 					break;
 				case 1:
 					array_push($signup_error, "邮箱已被使用");

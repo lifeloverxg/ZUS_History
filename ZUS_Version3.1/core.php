@@ -37,13 +37,13 @@
 	// #1 debug
 //	include_once(S_ROOT.'conf/config_local.php');
 
-	include_once(S_ROOT.'conf/config_mac_local.php');
+//	include_once(S_ROOT.'conf/config_mac_local.php');
 
 	// #2 development
 //	include_once(S_ROOT.'conf/config_dev.php');
 
 	// #3 product
-//	include_once(S_ROOT.'conf/config.php');
+	include_once(S_ROOT.'conf/config.php');
 
 	// load modules
 	foreach (glob(S_ROOT.'util/*.php') as $module) { 
