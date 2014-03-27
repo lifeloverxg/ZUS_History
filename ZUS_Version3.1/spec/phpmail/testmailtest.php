@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <?php
 function sendmail($to,$subject = "",$body = "")
 {
@@ -24,9 +25,9 @@ function sendmail($to,$subject = "",$body = "")
     $mail->AltBody    = "To view the message, please use an HTML compatible email viewer! - From www.jiucool.com"; // optional, comment out and test
     $mail->MsgHTML($body);
     $address = $to;
-    $mail->AddAddress($address, "收件人名称");
-    //$mail->AddAttachment("images/phpmailer.gif");      // attachment 
-    //$mail->AddAttachment("images/phpmailer_mini.gif"); // attachment
+    $mail->AddAddress($address, "Junxiao Yi");
+    $mail->AddAttachment("../../theme/images/faq.png", "faq.png");      // attachment 
+//    $mail->AddAttachment("../images/phpmailer_mini.gif"); // attachment
     if(!$mail->Send()) 
     {
         echo "Mailer Error: " . $mail->ErrorInfo;
@@ -38,8 +39,8 @@ function sendmail($to,$subject = "",$body = "")
 }
 ?>
 <?php
-    $to = "lifeloverxg@gmail.com";
-    $subject = "yes";
-    $content = "yesorno";
+    $to = "yue0918@gmail.com";
+    $subject = "test for email Junxiao";
+    $content = "testtesttest";
     sendmail($to,$subject,$content);
 ?>

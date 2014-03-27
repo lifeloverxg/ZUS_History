@@ -2,11 +2,11 @@
 
 	require_once "email.class.php";
 	//******************** 配置信息 ********************************
-	$smtpserver = "smtp.exmail.qq.com";//SMTP服务器
+	$smtpserver = "hwsmtp.exmail.qq.com";//SMTP服务器
 	$smtpserverport =25;//SMTP服务器端口
 	$smtpusermail = "yijunxiao@nycuni.com";//SMTP服务器的用户邮箱
 	$smtpemailto = $_POST['toemail'];//发送给谁
-	$smtpuser = "yijunxiao";//SMTP服务器的用户帐号
+	$smtpuser = "yijunxiao@nycuni.com";//SMTP服务器的用户帐号
 	$smtppass = "gzyjx2011";//SMTP服务器的用户密码
 	$mailtitle = $_POST['title'];//邮件主题
 	$mailcontent = "<h1>".$_POST['content']."</h1>";//邮件内容
