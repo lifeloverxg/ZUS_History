@@ -9,7 +9,8 @@ $urls[] = "http://v.youku.com/v_playlist/f12280371o1p0.html";
 //$urls[] = "http://www.letv.com/ptv/vplay/1168109.html";
 //$urls[] = "http://video.sina.com.cn/v/b/46909166-1290055681.html";
 
-foreach($urls as $url){
+foreach($urls as $url)
+{
     $info = VideoUrlParser::parse($url);
     //var_dump($info);
     echo "<a href='{$info['url']}' target='_new'>{$info['title']}</a>";

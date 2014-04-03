@@ -43,10 +43,13 @@ $(function(){
 			dataType: 'json',
 			type: 'POST',
 			success: function(json){
-				if(!json.status){
+				if(!json.status)
+				{
 					$result.html("<font color=red>暂不支持该视频地址</font>");
 					return false;
-				}else{
+				}
+				else
+				{
 					var html = "<div style='border:1px #CCC solid; padding:3px; float:left;'>"
 						+ "		<a class='open_vedio' href='javascript:;' alt='"+json.data.title+"'>"
 						+ "		<img width='136' height='104' src='"+json.data.img+"' /></a>"
@@ -107,6 +110,6 @@ VedioUrlParser::parse($url);
 <p>&nbsp;</p>
 <p>返回<a href="http://www.hdj.me/">博客首页</a></p>
 
-<div><script src="http://s17.cnzz.com/stat.php?id=3269773&web_id=3269773" language="JavaScript"></script></div>
+<!-- <div><script src="http://s17.cnzz.com/stat.php?id=3269773&web_id=3269773" language="JavaScript"></script></div> -->
 </body>
 </html>
