@@ -1,0 +1,447 @@
+.div-browser-list
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ul-browser-list-gr {
+    
+}
+
+.ul-browser-list-gr>li {
+    float: left;
+/*edit version    background: rgba(255, 255, 255, 0.2); */
+    background: rgba(45, 128, 98, 0.5);
+    padding: 0.5%;
+    margin-bottom: 2%;
+/*edit version    color: #c2c2c2;*/
+    color: rgba(245, 240, 240, 1);
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    font-size: 0;
+    height: 239px;
+}
+
+.logo-group {
+	width: 100%;
+}
+
+
+.item-left
+{
+    display: block;
+    height: 100%;
+    width: 36%;
+    float: left;
+    padding: 1%;
+}
+
+.item-left-top
+{
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-left-mid
+{
+    display: block;
+    width: 0;
+	height: auto;
+}
+
+.item-left-bot
+{
+    display: block;
+    width: 100%;
+	height: 21%;
+}
+
+.item-right
+{
+    display: block;
+    height: 100%;
+    width: 64%;
+    float: left;
+    padding: 1%;
+}
+
+.item-right-top
+{
+    height: 73%;
+    width: 100%;
+}
+
+#gr-desc-head
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.0rem;
+    font-family: "SimHei","幼圆", "宋体", Arial, sans-serif;
+}
+
+#gr-desc-body
+{
+    margin-bottom: 1%;
+    font-size: 0.9rem;
+    white-space: pre-line;
+    overflow: hidden;
+    padding-left: 5%;
+    max-height: 85%;
+}
+
+.item-right-mid
+{
+    height: 15%;
+    width: 100%;
+}
+
+#gr-label-body
+{
+    margin-bottom: 1%;
+    font-size: 1.0rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-right-bot
+{
+    height: 15%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1094px) {
+    .ul-browser-list-gr>li {
+        width: 31.3%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 1093px) and (min-width: 769px) {
+    .ul-browser-list-gr>li {
+        width: 31.3%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 513px) {
+    .ul-browser-list-gr>li {
+        width: 48%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .ul-browser-list-gr>li {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@-o-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@-moz-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+
+@-webkit-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@-o-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@-moz-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+
+.button-join-gr {
+    display: block;
+    height: auto;
+    width: 60%;
+    background: #2a1f28;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 8%;
+    -webkit-animation: shineButtonJoin 3s infinite;
+    -o-animation: shineButtonJoin 3s infinite;
+    animation: shineButtonJoin 3s infinite;
+}
+
+.button-join-gr:hover {
+    -webkit-animation: hoverButtonJoin 3s infinite;
+    -o-animation: hoverButtonJoin 3s infinite;
+    animation: hoverButtonJoin 3s infinite;
+}
+
+.button-join-gr.member {
+    background: #ab8d3c;
+}
+
+.button-join-gr.pending {
+    background: #59252c;
+}
+
+.button-join-gr.join {
+    background: #327026;
+}
+
+.button-join-gr.owner, .button-join-gr.admin {
+    background: #004e88;
+}
+
+.ul-member-list-tiny-gr {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.ul-member-list-tiny-gr>li {
+    display: inline-block;
+    width: 12%;
+    margin-right: 0.571428%;
+    font-size: 1rem;
+}
+
+.ul-member-list-tiny-gr>li:last-of-type {
+    margin-right: 0;
+}
+
+.ul-member-list-tiny-gr>li img {
+    width: 100%;
+}
+
+.more-list-large {
+    clear: both;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+.more-list-large>a {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 25px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.more-list-large>a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.view-main .more-list-large>a {
+    border-radius: 0 0 8px 8px;
+    background: #745d7f;
+}
+
+.view-main .more-list-large>a:hover {
+    background: #81698d;
+}
+
+/*group-bwsr-css-original
+.ul-browser-list-gr {
+    width: 100%;
+}
+
+.ul-browser-list-gr>li {
+    float: left;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.8%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    color: #c2c2c2;
+    overflow: hidden;
+    display: block;
+}
+
+.item-info-gr {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.item-title-gr {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2px 0;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+.item-owner-gr {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.item-owner-gr img {
+    width: 10%;
+}
+
+.item-owner-gr p {
+    display: inline-block;
+}
+
+.div-logo-large-gr img {
+	width: 100%;
+}
+
+.div-item-member-gr {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+.div-item-member-gr>p {
+    display: block;
+    float: left;
+    width: 65%;
+    height: 100%;
+    line-height: 25px;
+}
+
+@-webkit-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@-o-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@-moz-keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+@keyframes shineButtonJoin {
+    from { box-shadow: 0 0 5px #fff  }
+    50% { box-shadow: 0 0 10px #eee }
+    to { box-shadow: 0 0 5px #fff }
+}
+
+@-webkit-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@-o-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@-moz-keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+@keyframes hoverButtonJoin {
+    from { box-shadow: 0 0 15px #fff  }
+    50% { box-shadow: 0 0 20px #eee }
+    to { box-shadow: 0 0 15px #fff }
+}
+
+.button-join-gr {
+    display: block;
+    float: right;
+    height: 100%;
+    width: 30%;
+    background: #2a1f28;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0.8rem;
+    -webkit-animation: shineButtonJoin 3s infinite;
+    -o-animation: shineButtonJoin 3s infinite;
+    animation: shineButtonJoin 3s infinite;
+}
+
+.button-join-gr:hover {
+    -webkit-animation: hoverButtonJoin 3s infinite;
+    -o-animation: hoverButtonJoin 3s infinite;
+    animation: hoverButtonJoin 3s infinite;
+}
+
+.button-join-gr.joined {
+    background: #e5ad36;
+}
+
+.button-join-gr.pending {
+    background: #59252c;
+}
+
+.button-join-gr.join {
+    background: #77d444;
+}
+
+.button-join-gr.own, .button-join-gr.manage {
+    background: #004e88;
+}
+
+.ul-member-list-tiny-gr {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.ul-member-list-tiny-gr>li {
+    display: inline-block;
+    width: 12%;
+    margin-right: 0.571428%;
+    font-size: 1rem;
+}
+
+.ul-member-list-tiny-gr>li:last-of-type {
+    margin-right: 0;
+}
+
+.ul-member-list-tiny-gr>li img {
+    width: 100%;
+}
+*/
+
