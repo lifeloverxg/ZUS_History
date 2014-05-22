@@ -1,0 +1,90 @@
+.section-group-top {
+    position: relative;
+    display: block;
+    background: transparent;
+    width: auto;
+    min-height: 200px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.section-group-top ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.section-group-announcement {
+	display: block;
+	float: left;
+	width: 39%;
+	border-radius: 8px;
+}
+
+.section-group-announcement>p {
+	padding: 5px 10px;
+}
+
+.ul-button-list-small-small-button > li
+{
+	background: #FFFFFF;
+	display: inline-block;
+	height: 25px;
+	padding-top: 0px;
+	margin: 1px;
+}
+
+.ul-button-list-small-small-button > li > button
+{
+	box-shadow:inset 0px 1px 29px 5px #bee2f9;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	text-indent:0;
+	border:0px solid #FFFFFF;
+	display:inline-block;
+	color:#14396a;
+	font-family:'Apple LiSung Light';
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	height:35px;
+	line-height:25px;
+	width:35px;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*new version*/
+.group-detail-left {
+	float: left;
+	width: 68%;
+	margin-right: 3%;
+}
+
+.group-detail-right {
+	float: left;
+	width: 29%;
+	overflow: hidden;
+}
+
+.group-detail-left-top {
+	background: white;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 2%;
+}
+
+.group-detail-left-top-left {
+	display: block;
+	float: left;
+	width: 37%;
+	margin-right: 3%;
+}
+
+.section-group-info {
+	display: block;
+	float: left;
+	width: 60%;
+}

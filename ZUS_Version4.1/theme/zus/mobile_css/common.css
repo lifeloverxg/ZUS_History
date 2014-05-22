@@ -1,0 +1,183 @@
+/*
+ This file has been moved to
+ ~/theme/mobile/elite/m_elite_theme.css
+ */
+
+ /*++++++++++popup login_panel++++++++++*/
+.div-popup-login_panel 
+{
+    left: -10000px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: none;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+}
+
+.popup-login_panel-close 
+{
+    display: block;
+    float: right;
+    font-size: 2rem;
+    padding: 6px 12px;
+    border-radius: 0 0 0 100%;
+    background: rgba(250, 250, 250, 0.3);
+}
+
+.popup-login_panel-close:hover 
+{
+    background: rgba(250, 250, 250, 0.5);
+}
+
+.popup-login_panel-close>span 
+{
+    color: #aaa;
+}
+
+.popup-login_panel
+{
+    width: 80%;
+    background: #fff;
+    border: 3px solid #0076a6;
+    padding: 10px;
+    margin: 100px auto;
+    height: auto;
+}
+
+.popup-login_panel>header 
+{
+    border-bottom: 1px solid #222;
+    margin-bottom: 10px;
+}
+
+.popup-login_panel>header>h1
+{
+    margin-bottom: 4px;
+    font-size: 2rem;
+    background: #fdc286;
+}
+
+.back
+{
+    display: none;
+}
+
+.article-login_panel
+{
+    text-align: center;
+}
+
+.article-login_panel input
+{
+    width: 85%;
+    height: 35px;
+    margin: 2px auto;
+    border: 2px solid rgba(0, 118, 166, 1);
+    border-radius: 5px;
+}
+
+.head-login_panel
+{
+    display: block;
+    margin: 0px 0px 10px 1px;
+    float: left;
+}
+
+.login-logo
+{
+    display: block;
+    float: left;
+}
+
+.login-announce
+{
+    display: block;
+    float: left;
+    margin: 15px 0px 0px 10px;
+    color: rgba(0, 118, 166, 1);
+}
+
+.article-login_panel .ul-error-message
+{
+    color: rgba(0, 118, 166, 1);
+}
+
+/*+++++记住密码及忘记密码+++++*/
+.article-login_panel .div-account-pass
+{
+    display: inline-block;
+    margin: 0.1rem auto;
+    border-radius: 0.5rem;
+    /*line-height: 2rem;*/
+    height: auto;
+    width: 15rem;
+}
+
+.article-login_panel .div-save-pass
+{
+    display: inline-block;
+    border-radius: 0.5rem;
+    /*line-height: 2rem;*/
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.article-login_panel .div-find-pass
+{
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.article-login_panel .div-save-pass input[type='checkbox']
+{
+    height: auto;
+    width: auto;
+    margin:0 0.4rem;
+}
+
+.article-login_panel .find-pwd:hover 
+{
+    text-decoration: underline;
+}
+/*=====记住密码及忘记密码=====*/
+
+.article-login_panel input[name="signin_button"]
+{
+    width: 35%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    background: transparent;
+    color: rgba(230, 38, 138, 1);
+    outline: none;
+}
+
+.article-login_panel input[name="signup_button"]
+{
+    width: 30%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    border-radius: 5px;
+    background: transparent;
+    color: rgba(230, 38, 138, 1);
+    outline: none;
+}
+
+.article-login_panel button
+{
+    width: 30%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    background: transparent;
+    color: rgba(0, 118, 166, 1);
+}
+/*==========popup login_panel==========*/

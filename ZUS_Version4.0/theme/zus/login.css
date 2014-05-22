@@ -1,0 +1,115 @@
+.div-auth {
+	width: 500px;
+/*	padding: 60px 100px 100px 100px;*/
+	margin: 0px auto 200px auto;
+	text-align: center;
+/*	background: rgba(45, 128, 98, 0.8);*/
+	border-radius: 0%;
+	float: left;
+}
+
+#div-auth
+{
+	-webkit-animation: loadingList_auth 1.5s;
+	-o-animation: loadingList_auth 1.5s;
+	animation: loadingList_auth 1.5s;
+}
+
+.back  {
+	display: none;
+}
+
+.div-auth h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+	color: #EEE;
+}
+
+.div-auth input {
+	font-size: 1.5rem;
+	width: 260px;
+	padding: 2px 8px;
+	display: inline-block;
+	border-top: 0;
+}
+
+.div-auth input[type=submit] {
+	margin-top: 25px;
+	border: 0px;
+}
+
+.div-auth footer>button {
+	font-size: 1.5rem;
+	display: inline-block;
+	margin-top: 10px;
+	width: 260px;
+	border: 0;
+}
+
+.div-signin footer>button{
+	background: #da558a;
+}
+
+.div-signin footer>button:hover {
+	background: #b498d9;
+}
+
+.div-signup footer>button {
+	background: #767DE0;
+}
+
+.div-signup footer>button:hover {
+	background: #7C84ED;
+}
+
+.ul-error-message {
+	display: inline-block;
+	width: 260px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.ul-error-message>li {
+	text-align: left;
+	margin: 5px 0;
+	color: #f798ae;
+}
+
+/*auth动起来*/
+@-webkit-keyframes loadingList_auth 
+{
+	from 
+	{
+		left: 200%;
+	}
+	to 
+	{
+		left: 0%;
+	}
+}
+@-o-keyframes loadingList_auth {
+	from {
+		left: 200%;
+	}
+	to {
+		left: 0%;
+	}
+}
+@-moz-keyframes loadingList_auth {
+	from {
+		left: 200%;
+	}
+	to {
+		left: 0%;
+	}
+}
+@keyframes loadingList_auth {
+	from {
+		left: 200%;
+	}
+	to {
+		left: 0%;
+	}
+}
+/*auth动起来*/
+

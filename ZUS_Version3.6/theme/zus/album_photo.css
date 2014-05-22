@@ -1,0 +1,130 @@
+/*相册集合*/
+.section-image-list
+{
+	position: relative;
+	display: block;
+	background: rgba(255, 255, 255, 0.2);
+	margin-bottom: 30px;
+	border-radius: 8px;
+	height: 140px;
+	width: 65%;
+	min-width: 700px;
+	overflow: hidden;
+}
+
+.section-image-list > .info-title {
+	display: none;
+}
+
+.image-list-left-button {
+	float: left;
+}
+
+.image-list-right-button {
+	float: right;
+}
+
+.image-list-left-button, .image-list-right-button {
+	background: rgba(255, 255, 255, 0.1);
+	height: 100%;
+	width: 30px;
+	padding-top: 60px;
+	padding-left: 5px;
+	cursor: pointer;   
+}
+
+.image-list-left-button:hover, .image-list-right-button:hover {
+	background: rgba(255, 255, 255, 0.3);   
+}
+
+.ul-image-list > li
+{
+  display: inline;
+  list-style: none;
+  margin: 18px 25px;
+  padding: 5px;
+  border: 1px solid #ADFFD0;
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+
+.image-album-cover {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+img.image-medium
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: inline-block;
+  padding: 1px solid #ffffff;
+  height: 100px;
+  width:100px;
+}
+
+img.image-medium:hover
+{
+	border: 1px solid #0000ff;
+	cursor: pointer;
+}
+
+.album-title {
+	position: absolute;
+	z-index: 11;
+	background: rgba(0, 0, 0, 0.2);
+	bottom: -12px;
+	left: 0;
+	height: 25px;
+	width: 100px;
+	color: #FFF;
+	font-family: 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+
+/*相册图片*/
+.section-album-photo {
+	width: auto;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.ul-album-photo > li
+{
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.image-photo {
+  height: 150px;
+  width:auto;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.title-left {
+	float: left;
+}
+
+.album-photo-button {
+	display: block;
+    float: right;
+    background: #da558a;
+    border: 0;
+    height: 35px;
+    width: auto;
+    margin: 5px;
+    padding: 0px 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+}

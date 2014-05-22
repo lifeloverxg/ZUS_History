@@ -1,0 +1,166 @@
+html, body 
+{
+	font-size: 100%;
+ 	font-family: 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    width: 100%;
+	background-image: url("../../images/login_welcome.png");
+	background-size: cover;
+	color: white;
+	position: fixed;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.back
+{
+	display: none;
+}
+
+.welcome-wrap
+{
+	position: fixed;
+    bottom: 0px;
+    right: none;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: scroll;
+}
+
+.section-login_panel
+{
+	width: 30%;
+    background: #fff;
+    border: 3px solid #0076a6;
+    padding: 10px;
+    margin: 100px auto;
+    height: auto;
+    min-width: 350px;
+}
+
+.head-head-welcome
+{
+	display: block;
+	color: rgba(0, 118, 166, 1);
+	font-weight: bold;
+	font-size: 2rem;
+	margin-top: -15%;
+	margin-left: 50%;
+	background: transparent;
+}
+
+.article-login_panel
+{
+    text-align: center;
+}
+
+.article-login_panel input
+{
+    width: 85%;
+    height: 35px;
+    margin: 2px auto;
+    border: 2px solid rgba(0, 118, 166, 1);
+    border-radius: 5px;
+}
+
+.head-login_panel
+{
+    display: block;
+    margin: 0px 0px 10px 1px;
+    float: left;
+}
+
+.login-logo
+{
+    display: block;
+    float: left;
+}
+
+.login-announce
+{
+    display: block;
+    float: left;
+    margin: 15px 0px 0px 10px;
+    color: rgba(0, 118, 166, 1);
+}
+
+.article-login_panel .ul-error-message
+{
+    color: rgba(0, 118, 166, 1);
+}
+
+/*+++++记住密码及忘记密码+++++*/
+.article-login_panel .div-account-pass
+{
+    display: inline-block;
+    margin: 0.1rem auto;
+    border-radius: 0.5rem;
+    /*line-height: 2rem;*/
+    height: auto;
+    width: 15rem;
+}
+
+.article-login_panel .div-save-pass
+{
+    display: inline-block;
+    border-radius: 0.5rem;
+    /*line-height: 2rem;*/
+    height: auto;
+    width: auto;
+    float: left;
+    color: black;
+}
+
+.article-login_panel .div-find-pass
+{
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.article-login_panel .div-save-pass input[type='checkbox']
+{
+    height: auto;
+    width: auto;
+    margin:0 0.4rem;
+}
+
+.article-login_panel .find-pwd:hover 
+{
+    text-decoration: underline;
+}
+/*=====记住密码及忘记密码=====*/
+
+.article-login_panel input[name="signin_button"]
+{
+    width: 35%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    background: transparent;
+    color: rgba(230, 38, 138, 1);
+    outline: none;
+}
+
+.article-login_panel input[name="signup_button"]
+{
+    width: 30%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    border-radius: 5px;
+    background: transparent;
+    color: rgba(230, 38, 138, 1);
+    outline: none;
+}
+
+.article-login_panel button
+{
+    width: 30%;
+    height: 35px;
+    margin: 2px auto;
+    border: 0px;
+    background: transparent;
+    color: rgba(0, 118, 166, 1);
+}

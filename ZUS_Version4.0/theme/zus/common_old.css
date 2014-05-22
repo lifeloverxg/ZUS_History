@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import "../bootstrap/bootstrap.css";
+
+.header {
+	background: url(../images/header-footer-bg-line.png) repeat;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.header-content {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.footer {
+	background: url(../images/header-footer-bg-line.png) repeat;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 100;
+}
+
+.footer p {
+	position: absolute;
+	text-align: center;
+	top: 15px;
+	width: 100%;
+	color: silver;
+	font-size: 16px;
+}
+
