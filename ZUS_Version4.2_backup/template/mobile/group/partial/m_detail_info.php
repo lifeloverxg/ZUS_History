@@ -1,0 +1,51 @@
+<?php
+	include_once S_ROOT.'template/mobile/shared/list/m_photo_list.php';
+	include_once S_ROOT.'template/mobile/shared/list/m_down_list.php';
+?>
+<div class="info-list-large">
+	<header class="info-title-large" onclick="textToggle()">
+		群组描述
+		<span class="glyphicon glyphicon-chevron-down" id="down-icon"></span>
+		<span class="glyphicon glyphicon-chevron-up" id="up-icon"></span>
+	</header>
+	<div class="info-content-large" id="hide-text"><?php echo $info_list['群组描述']; ?></div>
+</div>
+<div class="info-list-small">
+<header class="info-title-small">群组成员</header>
+<?php
+	$m_admin_list = array();
+	foreach (array_slice($member_list['admins'], 0, 4) as $admin) {
+		$admin_item = array(
+							'url' => $home . $admin['url'],
+							'logo' => $home . $admin['image'],
+							'title' => $admin['title']
+		);
+		array_push($m_admin_list, $admin_item);
+	}
+	m_down_list::render($m_admin_list, '');
+?>
+<header class="info-title-none"></header>
+<?php
+	$m_member_list = array();
+	foreach (array_slice($member_list['members'], 0, 4) as $member) {
+		$member_item = array(
+							 'url' => $home . $member['url'],
+							 'logo' => $home . $member['image'],
+							 'title' => $member['title']
+		);
+		array_push($m_member_list, $member_item);
+	}
+	m_down_list::render($m_member_list, 'member_list?gid='.$gid);
+?>
+</div>
+<div class="info-list-small">
+<header class="info-title-small">群组相册</header>
+<?php
+	$m_photo_list = array();
+	foreach (array_slice($m_album_cover['albums'], 0, 8) as $photo_item) {
+		$photo_item['logo'] = $home .  $photo_item['image'];
+		array_push($m_photo_list, $photo_item);
+	}
+	m_photo_list::render($m_photo_list);
+?>
+</div>

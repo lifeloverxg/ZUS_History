@@ -1,0 +1,305 @@
+@charset "utf-8";
+@import "../bootstrap/buttons.css";
+@import "common.css";
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+.back-color {
+	width: 100%;
+	height: 900px;
+	background-color: #CCC;
+}
+
+.image_display {
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	width: 800px;
+	z-index: 0;
+}
+
+.image_display table {
+	position: absolute;
+	left: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.image_display tr td {
+	overflow: hidden;
+	height: 200px;
+	width: 250px;
+}
+
+.right-bar {
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	background-color: #FFF;
+	width: 350px;
+	z-index: 0;
+}
+
+.event-ctg {
+	position: absolute;
+	top: 280px;
+	width: inherit;
+	background-color: #FFF;
+}
+
+.event-ctg ul {
+	list-style-type: none;
+	padding-top: 10px;
+	min-height: 80px;
+	height: auto;
+}
+.event-ctg li {
+	float: left;
+	text-align: left;
+	vertical-align: top;
+	height: 80px;
+	width: 300px;
+}
+
+.event-img {
+	position: absolute;
+	left: 10px;
+	width: 80px;
+	height: 80px;
+}
+
+.event-dsc {
+	position: absolute;
+	left: 100px;
+	height: 80px;
+	width: 240px;
+}
+
+.event-dsc p {
+	word-wrap: break-word;
+	word-break: normal;
+	max-height: 40px;
+	overflow: hidden;
+}
+
+#calendar {
+	position: absolute;
+	top: 0px;
+	width: inherit;
+	height: 220px;
+	background-color: #FFF;
+}
+
+.create-event {
+	position: absolute;
+	top: 230px;
+	width: inherit;
+	height: 50px;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+#hide-tag {
+	background-image: url(../images/hide-tag.png);
+	position: fixed;
+	top: 100px;
+	left: 0px;
+	width: 38px;
+	height: 158px;
+	background-repeat: no-repeat;
+	background-position: right;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	z-index: 1;
+}
+
+#show-tag {
+	position: absolute;
+	top: 0px;
+	text-align: left;
+	height: 316px;
+	width: 0px;
+	background-color: #FFF;
+	overflow-x: hidden;
+}
+
+#show-tag-c {
+	padding: 20px;
+	float: left;
+	text-align: left;
+	width: inherit;
+	
+}
+
+#show-tag-c ul {
+	list-style-type: none;
+}
+
+#event-form {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+#bg-form {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #CCC;
+	z-index: 2;
+	opacity: 0.6;
+	filter:alpha(opacity=60); /* 针对 IE8 以及更早的版本 */
+}
+
+.form-content {
+	width: 550px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	padding-top: 10px;
+	background-color: #FFF;
+}
+
+.form-padding {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.event-details-wrap {
+	position: absolute;
+	padding: 60px;
+	width: 100%;
+}
+
+.event-details {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	color: grey;
+}
+
+.details-left-top {
+	float: left;
+	width: 470px;
+	background-color: #FFF;
+	padding: 10px;
+	height: 320px;
+}
+
+.details-left-button {
+	position: absolute;
+	top: 390px;
+	float: left;
+	width: 470px;
+	background-color: #FFF;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.details-left-bottom {
+	position: absolute;
+	float: left;
+	width: 470px;
+	top: 450px;
+	background-color: #FFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.details-right-top {
+	float: right;
+	width: 470px;
+	background-color: #FFF;
+	padding: 15px;
+}
+
+.details-table-left {
+	font-size: 18px;
+	width: 80px;
+	text-align: center; 
+	vertical-align: top;
+}
+
+.details-table-right {
+	font-size: 18px;
+	font-weight: 800;
+	width: 360px;
+	text-align: left; 
+	vertical-align: top;
+}
+
+.details-messages {
+	float: right;
+	width: 470px;
+	background-color: #FFF;
+	padding: 15px;
+	position: relative;
+	top: auto;
+	border-top: solid 15px #CCC;
+}
+
+.messages-ctg ul {
+	list-style-type: none;
+	padding-top: 10px;
+	min-height: 70px;
+	height:auto;
+	font-size: 10px;
+}
+
+.messages-ctg li {
+	float: left;
+	width: 440px;
+	height: 70px;
+	padding: 10px;
+}
+
+.messages-img {
+	position: absolute;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+.messages-dsc {
+	position: absolute;
+	left: 85px;
+	width: 360px;
+	word-wrap: break-word;
+	word-break: break-all;
+	max-height: 50px;
+	overflow: hidden;
+}
+
+.fileupload {
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+}
+
+.fakeupload {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.realupload {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	z-index: 1;
+}
