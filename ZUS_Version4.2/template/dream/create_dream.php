@@ -6,7 +6,7 @@
 		</header>
 		<article class="create-dream-form">
 			<form class="dreamForm" name="dreamForm" method="post" action="" enctype="multipart/form-data" onSubmit="return dream_check(this)">
-				<input type="text" name="dream_title" class="create_dream_class" placeholder="梦想名称" required/>
+				<input type="text" name="dream_title" class="create_dream_class" placeholder="梦想名称" required />
 				
 				<input type="number" name="dream_size" class="create_dream_class" placeholder="人数规模" min="1" max="200" required/>
 				
@@ -16,9 +16,9 @@
 					</div>
 
 				<select name="isowner" class="create-dream-input">
-				<option disabled selected>是否参与主办</option>
-				<option value="yes" >是</option>
-				<option value="no" >否</option>
+					<option disabled selected>是否参与主办</option>
+					<option value="yes" >是</option>
+					<option value="no" >否</option>
 				</select>
 
 				
@@ -26,7 +26,7 @@
 
 				<textarea name="dream_location" class="dream_description" placeholder="场地要求" title="场地要求" value="场地要求"></textarea> 
 
-				<input type="submit" name="dream_submit" class="dream_submit" value="创建梦想" /></td>
+				<input type="submit" name="dream_submit" class="dream_submit" value="创建梦想" />
 			</form>
 		</article>
 	</section>

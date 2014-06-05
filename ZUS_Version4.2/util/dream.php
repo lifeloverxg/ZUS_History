@@ -23,8 +23,8 @@
 			$stmt->bind_param('siissis', $dream['title'], $dream['size'], $dream['pid'], $dream['location'], $dream['expe_time'], $dream['isowner'], $dream['description']);
 
 			//$sql = "INSERT INTO dream (title, size, pid, location, expe_time, isowner, detail) VALUES ('".$dream['title']."', ".$dream['size'] .", ".$dream['pid'] .", '".$dream['location'] ."', '".$dream['expe_time'] ."', ".$dream['isowner'] .", '".$dream['description'] ."');"; 
-			echo $sql;
-      		$stmt->prepare($sql);
+			// echo $sql;
+   //    		$stmt->prepare($sql);
 			$stmt->execute();
 			
 			// get auto generated id

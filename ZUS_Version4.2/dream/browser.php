@@ -58,13 +58,16 @@ $bm->mark();
 						'isowner'=>0,
 						);
 
-		echo $_POST["isowner"];
+		// echo $_POST["isowner"];
 
-		if($_POST['isowner']=="yes"){
+		if ($_POST['isowner'] == "yes")
+		{
 			$dream['isowner']=1;
 		}
 		else
+		{
 			$dream['isowner']=0;
+		}		
 
 //		echo $create_option;
 		$drmid = DreamDAO::create_dream($auth['uid'], $dream);
